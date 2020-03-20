@@ -5,25 +5,31 @@ exports[`It renders 1`] = `
   <header
     class="sc-AxjAm ehXquI"
   >
-    <p>
-      Menu
-    </p>
     <h1>
       Aeshop
     </h1>
     <div
       class="sc-AxirZ dTDYBw"
     >
-      <p>
-        Liked: 0
-      </p>
       <div
-        class="sc-AxiKw ccnuHg"
+        style="display: flex;"
+      >
+        <img
+          alt="liked"
+          src="liked.svg"
+          style="margin: 5px;"
+        />
+        <p>
+          0
+        </p>
+      </div>
+      <div
+        class="sc-AxiKw juaMsy"
       />
     </div>
   </header>
   <div
-    class="sc-AxhUy jxtCyB"
+    class="sc-AxhUy xbsSu"
   >
     Body
   </div>

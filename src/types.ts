@@ -6,6 +6,8 @@ export interface ProductEntity {
 	price: string;
 	seller: string;
 	slug: string;
+	size: string;
+	brand: string;
 	sold: boolean;
 	liked: boolean;
 }

@@ -21,6 +21,8 @@ exports[`ProductTest it renders 1`] = `
         <p>
           title
         </p>
+        <p />
+        <p />
         <p
           class="sc-AxhCb gjTtwG"
         >

@@ -1,6 +1,7 @@
 import React, { useContext, useState } from 'react';
 import styled from 'styled-components';
 import { ProductsContext, ReducerContext } from '../ProductsContext';
+import liked from '../liked.svg';
 
 const HeaderWrapper = styled.header`
   display: flex;
@@ -29,6 +30,8 @@ const Dropdown = styled.div<{ visible?: boolean }>`
   width: 250px;
   right: 0;
   background: white;
+  border: 1px solid black;
+  margin: 1rem;
 `;
 Dropdown.displayName = 'Dropdown';
 
@@ -48,14 +51,19 @@ export const LikedProducts = () => {
 
   return (
     <LikedProduct onClick={() => toggleMenu(!menuVisible)}>
-      <p>Liked: {likedProducts?.length || 0}</p>
+      <div style={{ display: 'flex' }}>
+        <img src={liked} alt="liked" style={{ margin: 5 }} />
+        <p>{likedProducts?.length || 0}</p>
+      </div>
       <Dropdown visible={menuVisible}>
         {likedProducts.map(({ title, id }) => (
           <DropdownItem>
             <p>{title}</p>
-            <button onClick={() => dispatch({ type: 'TOGGLE_PRODUCT_LIKED', id  })}>
+            <button
+              onClick={() => dispatch({ type: 'TOGGLE_PRODUCT_LIKED', id })}
+            >
               Remove
-              </button>
+            </button>
           </DropdownItem>
         ))}
       </Dropdown>
@@ -66,7 +74,7 @@ export const LikedProducts = () => {
 export const Header = () => {
   return (
     <HeaderWrapper>
-      <p>Menu</p>
+      <></>
       <h1>Aeshop</h1>
       <LikedProducts />
     </HeaderWrapper>

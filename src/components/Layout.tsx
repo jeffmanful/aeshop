@@ -8,7 +8,6 @@ const ContentBox = styled.div`
   align-items: flex-start;
   justify-content: center;
   flex-wrap: wrap;
-  max-width: 1200px;
 `;
 ContentBox.displayName = 'ContentBox';
 

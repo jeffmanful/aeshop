@@ -61,6 +61,8 @@ const Product: React.FC<ProductEntity> = ({
   price,
   id,
   liked,
+  size,
+  brand
 }): JSX.Element => {
   const dispatch = useContext(ReducerContext)
   const history = useHistory()
@@ -80,6 +82,8 @@ const Product: React.FC<ProductEntity> = ({
       >
         <ProductDetails>
           <p>{title}</p>
+          <p>{size}</p>
+          <p>{brand}</p>
           {sold ? <Sold>SOLD</Sold> : <Price>{formattedPrice}</Price>}
         </ProductDetails>
         <img
