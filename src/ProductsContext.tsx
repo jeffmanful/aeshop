@@ -13,7 +13,7 @@ export const ReducerContext = createContext<Dispatch<ProductActionTypes>>(
 )
 
 export const toggleLiked = (products: Products, id: number): Products =>
-  products.map(t => (t.id !== id ? t : { ...t, liked: !t.liked }))
+  products.map(product => (product.id !== id ? product : { ...product, liked: !product.liked }))
 
 export function reducer(store: ProductsState, action: ProductActionTypes) {
   const { products } = store
