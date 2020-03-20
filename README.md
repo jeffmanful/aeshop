@@ -4,7 +4,7 @@ Aeshop - simple storefront
 
 To start the project
 
-### yarn
+### `yarn`
 ### `yarn start`
 
 Runs the app in the development mode.<br />
