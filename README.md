@@ -27,5 +27,3 @@ I opted for Typescript for the compile time type safety.
 For runtime typeschecking I would opt to use: babel-plugin-typescript-to-proptypes to convert the type declarations for components to proptypes. https://www.npmjs.com/package/babel-plugin-typescript-to-proptypes
 
 Unfortunately I ran out of time and spent a lot of time fiddling with ejecting from create-react app.
-
-Clicking on a product navigates to a page for that product. It would be more fleshed out if I had more time.
