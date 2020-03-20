@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProductTest it renders 1`] = `
+<DocumentFragment>
+  <div
+    class="sc-AxjAm iHyQVR"
+    data-testid="product"
+  >
+    <img
+      alt=""
+      class="sc-AxirZ dVmuFx"
+      src=""
+    />
+    <div
+      class="row"
+      style="display: flex; justify-content: space-between;"
+    >
+      <div
+        class="sc-AxiKw clJdzB"
+      >
+        <p>
+          title
+        </p>
+        <p
+          class="sc-AxhCb gjTtwG"
+        >
+          £22.22
+        </p>
+      </div>
+      <img
+        alt="like icon"
+        data-testid="unliked.svg"
+        role="button"
+        src="unliked.svg"
+      />
+    </div>
+  </div>
+</DocumentFragment>
+`;

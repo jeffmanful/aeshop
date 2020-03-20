@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`It renders 1`] = `
+<DocumentFragment>
+  <header
+    class="sc-AxjAm ehXquI"
+  >
+    <p>
+      Menu
+    </p>
+    <h1>
+      Aeshop
+    </h1>
+    <div
+      class="sc-AxirZ dTDYBw"
+    >
+      <p>
+        Liked: 0
+      </p>
+      <div
+        class="sc-AxiKw ccnuHg"
+      />
+    </div>
+  </header>
+  <div
+    class="sc-AxhUy jxtCyB"
+  >
+    Body
+  </div>
+</DocumentFragment>
+`;

@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProductList renders 1`] = `
+<DocumentFragment>
+  <div
+    class="sc-AxheI flMNKF"
+    data-testid="product-list"
+  >
+    <div
+      class="row"
+    >
+      <p
+        class="product-count"
+      >
+        0 styles
+      </p>
+      <button
+        class="sc-Axmtr gsHpch"
+        data-testid="hide-sold-items"
+      >
+        Hide sold items
+      </button>
+    </div>
+    <div
+      class="sc-AxjAm FdrlR"
+    />
+  </div>
+</DocumentFragment>
+`;

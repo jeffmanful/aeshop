@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders 1`] = `
+<DocumentFragment>
+  <header
+    class="sc-AxjAm ehXquI"
+  >
+    <p>
+      Menu
+    </p>
+    <h1>
+      Aeshop
+    </h1>
+    <div
+      class="sc-AxirZ dTDYBw"
+    >
+      <p>
+        Liked: 0
+      </p>
+      <div
+        class="sc-AxiKw ccnuHg"
+      />
+    </div>
+  </header>
+  <div
+    class="sc-AxhUy jxtCyB"
+  >
+    <div
+      class="sc-fzpans ajbOc"
+      data-testid="product-list"
+    >
+      <div
+        class="row"
+      >
+        <p
+          class="product-count"
+        >
+          0 styles
+        </p>
+        <button
+          class="sc-fzplWN hmPaPa"
+          data-testid="hide-sold-items"
+        >
+          Hide sold items
+        </button>
+      </div>
+      <div
+        class="sc-AxgMl gouRoV"
+      />
+    </div>
+  </div>
+</DocumentFragment>
+`;
