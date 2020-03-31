@@ -1,5 +1,3 @@
-Depop Store Exercise
-
 Aeshop - simple storefront
 
 To start the project
